@@ -67,11 +67,17 @@ body {
 }
 
 .nav__logo {
-  width: 34px;
-  height: 34px;
-  object-fit: cover;
-  border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.45);
+  width: auto;
+  height: 40px;
+  max-width: 120px;
+  object-fit: contain;
+  object-position: center;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 4px 6px;
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.28);
+  display: block;
 }
 
 .nav__links {
